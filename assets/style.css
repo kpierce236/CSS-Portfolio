@@ -45,3 +45,25 @@ nav ul li a {
     text-align: center;
     padding: 10px;
 }
+.side-title {
+    border-right: 3px solid palevioletred;
+    padding: 10px 10px 10px 75px;
+    text-align: end;
+}
+
+.side-title h1 {
+    width: 120px;
+    font-size: 30px;
+    color: palevioletred;
+}
+
+.sections-class {
+    display: flex;
+    margin-top: 25px;
+
+}
+
+.container {
+    padding: 10px 80px 10px 20px;
+}
+
