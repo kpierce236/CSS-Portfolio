@@ -25,3 +25,23 @@ nav ul li a {
     margin: 0px 5px 0px 5px;
     
 }
+
+.banner {
+    background-image: url(images/los_angeles.JPG);
+    height: 150px;
+    background-size: contain;
+    position: relative;
+}
+.subtitle {
+    position: absolute;
+    top: 80px;
+    left: 950px;
+
+}
+.subtitle h2 {
+    background-color: purple;
+    font-size: 120%;
+    color: gray;
+    text-align: center;
+    padding: 10px;
+}
