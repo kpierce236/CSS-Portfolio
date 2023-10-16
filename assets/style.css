@@ -1,3 +1,4 @@
+
 header {
     background-color: gray;
     display: flex;
@@ -65,5 +66,56 @@ nav ul li a {
 
 .container {
     padding: 10px 80px 10px 20px;
+    display: flex;
 }
 
+#card-holder {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card:first-child {
+    width: 1000px;
+    height: 400px;
+    margin: 10px;
+}
+
+.card {
+    background-image: url(images/los_angeles.JPG);
+    opacity: 0.2;
+    width: 490px;
+    height: 200px;
+    margin: 10px;
+    border: 3px solid purple;
+    position: relative;
+}
+
+.card:hover {
+    opacity: 1;
+}
+
+.card-title {
+    position: absolute;
+    top: 80%;
+    background-color: purple;
+    padding: 10px 10px 10px 15px;
+}
+
+.contact-list {
+  display: flex;  
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.contact-list li {
+    margin-top: 20px;
+    margin-right: 120px;
+    margin-left: 20px;
+}
+
+.contact-list a {
+   text-decoration: none;
+   color: black;
+   border-bottom: 3px solid palevioletred;
+   padding: 0px 3px 3px 3px;
+}
