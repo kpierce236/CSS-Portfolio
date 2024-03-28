@@ -113,3 +113,22 @@ nav ul li a {
 .card-title p {
     margin: 0;
 }
+
+/* Contact Styles */
+.contact-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.contact-list li {
+    margin-right: 20px;
+}
+
+.contact-list a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    border-bottom: 3px solid #db7093;
+    padding: 0 3px 3px 3px;
+}
