@@ -68,12 +68,14 @@ nav ul li a {
 
 }
 
-.sections-class {
-    border-top: 25px solid purple;
-    padding-top: 20px; /* Adjust as needed */
-    position: relative;
-    margin-top: 50px;
 
+.section-divider {
+    width: 70%;
+    height: 10px;
+    background-color: purple; /* Line color */
+    margin: 0 auto; /* Center the divider horizontally */
+    margin-top: 50px; /* Adjust top margin as needed */
+    margin-bottom: 20px; /* Adjust bottom margin as needed */
 }
 
 .container {
@@ -81,13 +83,9 @@ nav ul li a {
     flex-wrap: wrap;
     max-width: 1200px;
     margin-left: 50px ;
-    padding-bottom: 30px ;
-    border-bottom: 3px solid purple;
+   
 }
 
-#contact-container {
-    border-bottom: none; /* Remove border from the last container */
-}
 
 #card-holder {
     display: flex;
