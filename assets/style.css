@@ -35,8 +35,8 @@ nav ul li a {
 }
 .subtitle {
     position: absolute;
-    top: 80px;
-    left: 950px;
+    top: 50%;
+    left: 50%;
 
 }
 .subtitle h2 {
@@ -48,7 +48,7 @@ nav ul li a {
 }
 .side-title {
     border-right: 3px solid palevioletred;
-    padding: 10px 10px 10px 75px;
+    padding: 10px;
     text-align: end;
 }
 
