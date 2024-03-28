@@ -155,3 +155,24 @@ nav ul li a {
 .card-title p {
     margin: 0;
 }
+
+.contact-list {
+    display: flex;  
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+  
+  .contact-list li {
+      margin-top: 20px;
+      margin-right: 120px;
+      margin-left: 20px;
+  }
+  
+  .contact-list a {
+     text-decoration: none;
+     color: black;
+     border-bottom: 3px solid palevioletred;
+     padding: 0px 3px 3px 3px;
+  }
