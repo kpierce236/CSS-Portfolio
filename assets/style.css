@@ -38,3 +38,18 @@ nav ul li a {
     color: #fff;
     font-size: 18px;
 }
+
+/* Banner Styles */
+.banner {
+    background-image: url('images/los_angeles.JPG');
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner h2 {
+    color: #fff;
+    font-size: 36px;
+}
