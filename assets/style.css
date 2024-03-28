@@ -55,20 +55,24 @@ nav ul li a {
     padding: 10px;
 }
 .side-title {
-    border-right: 3px solid palevioletred;
-    padding: 10px;
-    text-align: end;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  
 }
 
 .side-title h1 {
-    width: 120px;
-    font-size: 30px;
+    width: 300px;
+    font-size: 36px;
     color: palevioletred;
+
 }
 
 .sections-class {
-    display: flex;
-    margin-top: 25px;
+    border-top: 25px solid purple;
+    padding-top: 20px; /* Adjust as needed */
+    position: relative;
+    margin-top: 50px;
 
 }
 
@@ -77,6 +81,12 @@ nav ul li a {
     flex-wrap: wrap;
     max-width: 1200px;
     margin-left: 50px ;
+    padding-bottom: 30px ;
+    border-bottom: 3px solid purple;
+}
+
+#contact-container {
+    border-bottom: none; /* Remove border from the last container */
 }
 
 #card-holder {
