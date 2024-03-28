@@ -29,7 +29,7 @@ nav ul li a {
 }
 
 .banner {
-    background-image: url(/assets/images/lake.jpeg);
+    background-image: url(./images/city.jpg);
     height: 200px;
     background-size: cover;
     background-position: center;
