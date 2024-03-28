@@ -65,8 +65,8 @@ nav ul li a {
 }
 
 .container {
-    padding: 10px 80px 10px 20px;
     display: flex;
+    flex-wrap: wrap;
 }
 
 #card-holder {
